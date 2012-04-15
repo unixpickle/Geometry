@@ -15,6 +15,9 @@
 		FA24147A153B126C00AC1521 /* ANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA241479153B126C00AC1521 /* ANAppDelegate.m */; };
 		FA24147D153B126C00AC1521 /* ANViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA24147C153B126C00AC1521 /* ANViewController.m */; };
 		FA241480153B126D00AC1521 /* ANViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA24147E153B126D00AC1521 /* ANViewController.xib */; };
+		FA241488153B130A00AC1521 /* ANLineGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = FA241487153B130A00AC1521 /* ANLineGroup.m */; };
+		FA24148B153B154B00AC1521 /* ANShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA24148A153B154B00AC1521 /* ANShapeView.m */; };
+		FA241493153B70F600AC1521 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = FA241492153B70F600AC1521 /* circle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,20 @@
 		FA241469153B126B00AC1521 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FA24146B153B126B00AC1521 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA24146D153B126B00AC1521 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FA241471153B126C00AC1521 /* Geometry-Info.plist */ = {isa = PBXFileReference; path = "Geometry-Info.plist"; sourceTree = "<group>"; };
+		FA241471153B126C00AC1521 /* Geometry-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Geometry-Info.plist"; sourceTree = "<group>"; };
 		FA241473153B126C00AC1521 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA241475153B126C00AC1521 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FA241477153B126C00AC1521 /* Geometry-Prefix.pch */ = {isa = PBXFileReference; path = "Geometry-Prefix.pch"; sourceTree = "<group>"; };
-		FA241478153B126C00AC1521 /* ANAppDelegate.h */ = {isa = PBXFileReference; path = ANAppDelegate.h; sourceTree = "<group>"; };
+		FA241477153B126C00AC1521 /* Geometry-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Geometry-Prefix.pch"; sourceTree = "<group>"; };
+		FA241478153B126C00AC1521 /* ANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANAppDelegate.h; sourceTree = "<group>"; };
 		FA241479153B126C00AC1521 /* ANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANAppDelegate.m; sourceTree = "<group>"; };
-		FA24147B153B126C00AC1521 /* ANViewController.h */ = {isa = PBXFileReference; path = ANViewController.h; sourceTree = "<group>"; };
+		FA24147B153B126C00AC1521 /* ANViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANViewController.h; sourceTree = "<group>"; };
 		FA24147C153B126C00AC1521 /* ANViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANViewController.m; sourceTree = "<group>"; };
 		FA24147F153B126D00AC1521 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ANViewController.xib; sourceTree = "<group>"; };
+		FA241486153B130A00AC1521 /* ANLineGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANLineGroup.h; sourceTree = "<group>"; };
+		FA241487153B130A00AC1521 /* ANLineGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANLineGroup.m; sourceTree = "<group>"; };
+		FA241489153B154B00AC1521 /* ANShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANShapeView.h; sourceTree = "<group>"; };
+		FA24148A153B154B00AC1521 /* ANShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANShapeView.m; sourceTree = "<group>"; };
+		FA241492153B70F600AC1521 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,10 @@
 				FA24147B153B126C00AC1521 /* ANViewController.h */,
 				FA24147C153B126C00AC1521 /* ANViewController.m */,
 				FA24147E153B126D00AC1521 /* ANViewController.xib */,
+				FA241486153B130A00AC1521 /* ANLineGroup.h */,
+				FA241487153B130A00AC1521 /* ANLineGroup.m */,
+				FA241489153B154B00AC1521 /* ANShapeView.h */,
+				FA24148A153B154B00AC1521 /* ANShapeView.m */,
 				FA241470153B126C00AC1521 /* Supporting Files */,
 			);
 			path = Geometry;
@@ -90,6 +102,7 @@
 		FA241470153B126C00AC1521 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA241492153B70F600AC1521 /* circle.png */,
 				FA241471153B126C00AC1521 /* Geometry-Info.plist */,
 				FA241472153B126C00AC1521 /* InfoPlist.strings */,
 				FA241475153B126C00AC1521 /* main.m */,
@@ -151,6 +164,7 @@
 			files = (
 				FA241474153B126C00AC1521 /* InfoPlist.strings in Resources */,
 				FA241480153B126D00AC1521 /* ANViewController.xib in Resources */,
+				FA241493153B70F600AC1521 /* circle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +178,8 @@
 				FA241476153B126C00AC1521 /* main.m in Sources */,
 				FA24147A153B126C00AC1521 /* ANAppDelegate.m in Sources */,
 				FA24147D153B126C00AC1521 /* ANViewController.m in Sources */,
+				FA241488153B130A00AC1521 /* ANLineGroup.m in Sources */,
+				FA24148B153B154B00AC1521 /* ANShapeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

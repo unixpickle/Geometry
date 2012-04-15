@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ANShapeView.h"
 
-@interface ANViewController : UIViewController
+@interface ANViewController : UIViewController <UIActionSheetDelegate, UINavigationControllerDelegate, UIImagePickerControllerDelegate> {
+    ANShapeView * shapeView;
+    UIImageView * overlayImage;
+    UINavigationBar * navBar;
+    UINavigationItem * navItem;
+    UIBarButtonItem * undoButton;
+    UIBarButtonItem * pickButton;
+    UIImagePickerController * imagePicker;
+}
+
+- (void)undo:(id)sender;
+- (void)pickImage:(id)sender;
 
 @end
